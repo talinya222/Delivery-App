@@ -27,7 +27,7 @@
           "price": "4",
           "priceOld": "",
           "shareUrl": "",
-          "likeUrl": ""
+          "likeUrl": "4"
         },
         {
           "id": 2,
@@ -62,7 +62,7 @@
           "price": "1.5",
           "priceOld": "3",
           "shareUrl": "",
-          "likeUrl": ""
+          "likeUrl": "2"
         },
         {
           "id": 3,
@@ -93,7 +93,7 @@
           "price": "2",
           "priceOld": "4",
           "shareUrl": "",
-          "likeUrl": ""
+          "likeUrl": "5"
         },
         {
           "id": 4,
@@ -124,7 +124,7 @@
           "price": "2.85",
           "priceOld": "",
           "shareUrl": "",
-          "likeUrl": ""
+          "likeUrl": "4"
         },
         {
           "id": 5,
@@ -150,7 +150,7 @@
           "price": "3.5",
           "priceOld": "",
           "shareUrl": "",
-          "likeUrl": ""
+          "likeUrl": "6"
         },
         {
           "id": 6,
@@ -185,7 +185,7 @@
           "price": "2",
           "priceOld": "4",
           "shareUrl": "",
-          "likeUrl": ""
+          "likeUrl": "8"
         }
       ]
     }
@@ -218,7 +218,7 @@
           "price": "1.5",
           "priceOld": "",
           "shareUrl": "",
-          "likeUrl": ""
+          "likeUrl": "2"
         },
         {
           "id": 2,
@@ -253,7 +253,7 @@
           "price": "1.5",
           "priceOld": "3",
           "shareUrl": "",
-          "likeUrl": ""
+          "likeUrl": "6"
         },
         {
           "id": 3,
@@ -284,7 +284,7 @@
           "price": "1",
           "priceOld": "2",
           "shareUrl": "",
-          "likeUrl": ""
+          "likeUrl": "4"
         }
       ]
     }
@@ -317,7 +317,7 @@
           "price": "1.5",
           "priceOld": "",
           "shareUrl": "",
-          "likeUrl": ""
+          "likeUrl": "3"
         },
         {
           "id": 2,
@@ -352,7 +352,7 @@
           "price": "1.5",
           "priceOld": "3",
           "shareUrl": "",
-          "likeUrl": ""
+          "likeUrl": "5"
         },
         {
           "id": 3,
@@ -383,7 +383,7 @@
           "price": "1",
           "priceOld": "2",
           "shareUrl": "",
-          "likeUrl": ""
+          "likeUrl": "7"
         }
       ]
     }
