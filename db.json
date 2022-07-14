@@ -1,0 +1,391 @@
+{
+  "cupcakes": [
+    {
+      "title": "Hot Cupcakes",
+      "products": [
+        {
+          "id": 1,
+          "url": "#",
+          "title": "“Blueberry Breeze”",
+          "content": "Tried our cupcakes once, you won't be able to forget them anymore. Exquisite recipes, cozy atmosphere, polite waiters. All this is created for you and your pleasure.",
+          "text": [
+            {
+              "key": "Weight",
+              "value": "80gr"
+            },
+            {
+              "key": "100gr",
+              "value": "120kcal"
+            },
+            {
+              "key": "Category",
+              "value": "fruit"
+            }
+          ],
+          "labels": "",
+          "image": "1.png",
+          "price": "4",
+          "priceOld": "",
+          "shareUrl": "",
+          "likeUrl": ""
+        },
+        {
+          "id": 2,
+          "url": "#",
+          "title": "“Cherry Hurricane”",
+          "content": "Tried our cupcakes once, you won't be able to forget them anymore.",
+          "text": [
+            {
+              "key": "Weight",
+              "value": "70gr"
+            },
+            {
+              "key": "100gr",
+              "value": "110kcal"
+            },
+            {
+              "key": "Category",
+              "value": "berry"
+            }
+          ],
+          "labels": [
+            {
+              "type": "sale",
+              "value": "-50%"
+            },
+            {
+              "type": "new",
+              "value": "New"
+            }
+          ],
+          "image": "2.png",
+          "price": "1.5",
+          "priceOld": "3",
+          "shareUrl": "",
+          "likeUrl": ""
+        },
+        {
+          "id": 3,
+          "url": "#",
+          "title": "“Strawberry Bomb”",
+          "content": "Tried our cupcakes once, you won't be able to forget them anymore.",
+          "text": [
+            {
+              "key": "Weight",
+              "value": "75gr"
+            },
+            {
+              "key": "100gr",
+              "value": "150kcal"
+            },
+            {
+              "key": "Category",
+              "value": "fruit"
+            }
+          ],
+          "labels": [
+            {
+              "type": "sale",
+              "value": "-50%"
+            }
+          ],
+          "image": "3.png",
+          "price": "2",
+          "priceOld": "4",
+          "shareUrl": "",
+          "likeUrl": ""
+        },
+        {
+          "id": 4,
+          "url": "#",
+          "title": "“Air Bliss”",
+          "content": "Tried our cupcakes once, you won't be able to forget them anymore. Exquisite recipes, cozy atmosphere, polite waiters. All this is created for you and your pleasure.",
+          "text": [
+            {
+              "key": "Weight",
+              "value": "60gr"
+            },
+            {
+              "key": "100gr",
+              "value": "100kcal"
+            },
+            {
+              "key": "Category",
+              "value": "berry"
+            }
+          ],
+          "labels": [
+            {
+              "type": "new",
+              "value": "New"
+            }
+          ],
+          "image": "4.png",
+          "price": "2.85",
+          "priceOld": "",
+          "shareUrl": "",
+          "likeUrl": ""
+        },
+        {
+          "id": 5,
+          "url": "#",
+          "title": "“Fruit Harmony”",
+          "content": "Tried our cupcakes once, you won't be able to forget them anymore. Exquisite recipes, cozy atmosphere, polite waiters.",
+          "text": [
+            {
+              "key": "Weight",
+              "value": "70gr"
+            },
+            {
+              "key": "100gr",
+              "value": "120kcal"
+            },
+            {
+              "key": "Category",
+              "value": "fruit"
+            }
+          ],
+          "labels": "",
+          "image": "5.png",
+          "price": "3.5",
+          "priceOld": "",
+          "shareUrl": "",
+          "likeUrl": ""
+        },
+        {
+          "id": 6,
+          "url": "#",
+          "title": "“Chocolate Extravaganza”",
+          "content": "Tried our cupcakes once, you won't be able to forget them anymore.",
+          "text": [
+            {
+              "key": "Weight",
+              "value": "70gr"
+            },
+            {
+              "key": "100gr",
+              "value": "160kcal"
+            },
+            {
+              "key": "Category",
+              "value": "chocolate"
+            }
+          ],
+          "labels": [
+            {
+              "type": "sale",
+              "value": "-50%"
+            },
+            {
+              "type": "new",
+              "value": "New"
+            }
+          ],
+          "image": "6.png",
+          "price": "2",
+          "priceOld": "4",
+          "shareUrl": "",
+          "likeUrl": ""
+        }
+      ]
+    }
+  ],
+  "mac": [
+    {
+      "title": "McDonald's",
+      "products": [
+        {
+          "id": 1,
+          "url": "#",
+          "title": "Hamburger",
+          "content": "The original burger starts with a 100% pure beef burger seasoned with just a pinch of salt and pepper. Then, the McDonald’s burger is topped with a tangy pickle, chopped onions, ketchup and mustard.",
+          "text": [
+            {
+              "key": "Weight",
+              "value": "105gr"
+            },
+            {
+              "key": "100gr",
+              "value": "264kcal"
+            },
+            {
+              "key": "Category",
+              "value": "Burger"
+            }
+          ],
+          "labels": "",
+          "image": "1.png",
+          "price": "1.5",
+          "priceOld": "",
+          "shareUrl": "",
+          "likeUrl": ""
+        },
+        {
+          "id": 2,
+          "url": "#",
+          "title": "Cheeseburger",
+          "content": "Our simple, classic cheeseburger begins with a 100% pure beef burger seasoned with just a pinch of salt and pepper. ",
+          "text": [
+            {
+              "key": "Weight",
+              "value": "119gr"
+            },
+            {
+              "key": "100gr",
+              "value": "263kcal"
+            },
+            {
+              "key": "Category",
+              "value": "Burger"
+            }
+          ],
+          "labels": [
+            {
+              "type": "sale",
+              "value": "-50%"
+            },
+            {
+              "type": "new",
+              "value": "New"
+            }
+          ],
+          "image": "2.png",
+          "price": "1.5",
+          "priceOld": "3",
+          "shareUrl": "",
+          "likeUrl": ""
+        },
+        {
+          "id": 3,
+          "url": "#",
+          "title": "Small Fries",
+          "content": "McDonald's World Famous Fries® are made with premium potatoes such as the Russet Burbank and the Shepody.",
+          "text": [
+            {
+              "key": "Weight",
+              "value": "75gr"
+            },
+            {
+              "key": "75gr",
+              "value": "220kcal"
+            },
+            {
+              "key": "Category",
+              "value": "Fries"
+            }
+          ],
+          "labels": [
+            {
+              "type": "sale",
+              "value": "-50%"
+            }
+          ],
+          "image": "3.png",
+          "price": "1",
+          "priceOld": "2",
+          "shareUrl": "",
+          "likeUrl": ""
+        }
+      ]
+    }
+  ],
+  "kfc": [
+    {
+      "title": "KFC",
+      "products": [
+        {
+          "id": 1,
+          "url": "#",
+          "title": "Crispy Chicken",
+          "content": "The original burger starts with a 100% pure beef burger seasoned with just a pinch of salt and pepper.",
+          "text": [
+            {
+              "key": "Weight",
+              "value": "105gr"
+            },
+            {
+              "key": "100gr",
+              "value": "264kcal"
+            },
+            {
+              "key": "Category",
+              "value": "Burger"
+            }
+          ],
+          "labels": "",
+          "image": "1.png",
+          "price": "1.5",
+          "priceOld": "",
+          "shareUrl": "",
+          "likeUrl": ""
+        },
+        {
+          "id": 2,
+          "url": "#",
+          "title": "Crispy Cheese",
+          "content": "Our simple, classic cheeseburger begins with a 100% pure beef burger seasoned with just a pinch of salt and pepper. ",
+          "text": [
+            {
+              "key": "Weight",
+              "value": "119gr"
+            },
+            {
+              "key": "100gr",
+              "value": "263kcal"
+            },
+            {
+              "key": "Category",
+              "value": "Burger"
+            }
+          ],
+          "labels": [
+            {
+              "type": "sale",
+              "value": "-50%"
+            },
+            {
+              "type": "new",
+              "value": "New"
+            }
+          ],
+          "image": "2.png",
+          "price": "1.5",
+          "priceOld": "3",
+          "shareUrl": "",
+          "likeUrl": ""
+        },
+        {
+          "id": 3,
+          "url": "#",
+          "title": "iTwister",
+          "content": "Let’s do the twist! Neodolateľne chrumkavé Crispy Strips s čerstvým šalátom, štavnatými paradajkami, uhorkou, chrumkavou slaninkou a našou najnovšou KFC sauce v horúcej tortile.",
+          "text": [
+            {
+              "key": "Weight",
+              "value": "175gr"
+            },
+            {
+              "key": "100gr",
+              "value": "220kcal"
+            },
+            {
+              "key": "Category",
+              "value": "Fries"
+            }
+          ],
+          "labels": [
+            {
+              "type": "sale",
+              "value": "-50%"
+            }
+          ],
+          "image": "3.png",
+          "price": "1",
+          "priceOld": "2",
+          "shareUrl": "",
+          "likeUrl": ""
+        }
+      ]
+    }
+  ]
+}
