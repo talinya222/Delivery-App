@@ -27,7 +27,7 @@
 					"price": "4",
 					"priceOld": "",
 					"shareUrl": "",
-					"likeUrl": ""
+					"likeUrl": "5"
 				},
 				{
 					"id": "2c",
@@ -62,7 +62,7 @@
 					"price": "1.5",
 					"priceOld": "3",
 					"shareUrl": "",
-					"likeUrl": ""
+					"likeUrl": "2"
 				},
 				{
 					"id": "3c",
@@ -93,7 +93,7 @@
 					"price": "2",
 					"priceOld": "4",
 					"shareUrl": "",
-					"likeUrl": ""
+					"likeUrl": "7"
 				},
 				{
 					"id": "4c",
@@ -124,7 +124,7 @@
 					"price": "2.85",
 					"priceOld": "",
 					"shareUrl": "",
-					"likeUrl": ""
+					"likeUrl": "6"
 				},
 				{
 					"id": "5c",
@@ -150,7 +150,7 @@
 					"price": "3.5",
 					"priceOld": "",
 					"shareUrl": "",
-					"likeUrl": ""
+					"likeUrl": "8"
 				},
 				{
 					"id": "6c",
@@ -185,7 +185,7 @@
 					"price": "2",
 					"priceOld": "4",
 					"shareUrl": "",
-					"likeUrl": ""
+					"likeUrl": "3"
 				}
 			]
 		}
@@ -218,7 +218,7 @@
 					"price": "1.5",
 					"priceOld": "",
 					"shareUrl": "",
-					"likeUrl": ""
+					"likeUrl": "2"
 				},
 				{
 					"id": "2m",
@@ -253,7 +253,7 @@
 					"price": "1.5",
 					"priceOld": "3",
 					"shareUrl": "",
-					"likeUrl": ""
+					"likeUrl": "4"
 				},
 				{
 					"id": "3m",
@@ -284,7 +284,7 @@
 					"price": "1",
 					"priceOld": "2",
 					"shareUrl": "",
-					"likeUrl": ""
+					"likeUrl": "6"
 				}
 			]
 		}
@@ -317,7 +317,7 @@
 					"price": "1.5",
 					"priceOld": "",
 					"shareUrl": "",
-					"likeUrl": ""
+					"likeUrl": "4"
 				},
 				{
 					"id": "2k",
@@ -352,7 +352,7 @@
 					"price": "1.5",
 					"priceOld": "3",
 					"shareUrl": "",
-					"likeUrl": ""
+					"likeUrl": "3"
 				},
 				{
 					"id": "3k",
@@ -383,7 +383,7 @@
 					"price": "1",
 					"priceOld": "2",
 					"shareUrl": "",
-					"likeUrl": ""
+					"likeUrl": "2"
 				}
 			]
 		}
