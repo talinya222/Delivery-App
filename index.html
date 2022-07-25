@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Delivery App</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220725141716">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+
+			<div class="header__top top-header">
+				<div class="top-header__container">
+
+					<a href="#" class="top-header__logo _icon-logo"></a>
+
+					<h2 class="top-header__slogan"><span class="top-header__name">Delivery App</span> is the best food delivery app</h2>
+
+					<div class="top-header__contacts">
+						<a href="tel:0012345678" class="top-header__call-us"><span class="top-header__text-call">Call us:</span> (00) 1234 5678</a>
+						<div class="top-header__social">
+							<a href="#" class="top-header__facebook _icon-facebook"></a>
+							<a href="#" class="top-header__instagram _icon-instagram"></a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__container">
+
+					<div class="bottom-header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="index.html" class="menu__link">Shop</a></li>
+								<li class="menu__item">
+									<a href="#" class="menu__link menu__link_cart">
+										Shopping Cart
+										<span class="menu__product-cart _icon-cart"></span>
+									</a>
+									<!-- <div hidden class="menu__submenu submenu">
+								<div class="cart-header__items">
+									<button type="button" class="cart-header__close">Back to shops</button>
+									<div class="cart-header__title">Shopping cart</div>
+									<ul class="cart-header__list cart-list">
+
+									</ul>
+									<div class="cart-header__total">Total: 100&nbsp;&euro;</div>
+									<button type="submit" class="cart-header__order-button btn">Order</button>
+								</div>
+							</div> -->
+								</li>
+								<li class="menu__item"><a href="#" class="menu__link">History</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="bottom-header__search search">
+						<form action="#" class="search__form">
+							<input class="search__input" type="text" name="search" placeholder="Search shop here...">
+							<button class="search__btn _icon-search" type="submit"></button>
+						</form>
+					</div>
+
+					<div data-da=".menu, 479.98, 0" class="bottom-header__account account">
+						<a href="#" class="account__icon _icon-account"></a>
+
+						<!-- <ul class="account__list">
+					<li class="account__item"><a href="#" class="account__link">My Account</a></li>
+					<li class="account__item"><a href="#" class="account__link">My Wish List (0)</a></li>
+					<li class="account__item"><a href="#" class="account__link">Compare (0)</a></li>
+					<li class="account__item"><a href="#" class="account__link">Create an Account</a></li>
+					<li class="account__item"><a href="#" class="account__link">Sign In</a></li>
+				</ul> -->
+					</div>
+
+				</div>
+			</div>
+
+		</header>
+		<main class="page">
+
+			<div class="page__main-title main-title">
+				<div class="main-title__container">
+					<div class="main-title__title">Current Shop</div>
+				</div>
+			</div>
+
+			<div class="page__catalog catalog">
+				<div class="catalog__container">
+					<div class="catalog__top top-catalog">
+						<button type="button" class="top-catalog__button">Back</button>
+						<div class="top-catalog__actions">
+							<div class="top-catalog__sorting sorting-catalog">
+								<span class="sorting-catalog__label">Sort By:</span>
+								<select name="form[]" class="sorting-catalog__selection">
+									<option value="1" selected> Position</option>
+									<option value="2">Price</option>
+									<option value="3">Name</option>
+									<option value="4">Position №4</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<div class="catalog__content">
+
+						<aside class="catalog__shops shops-catalog"></aside>
+
+						<div class="catalog__cards cards-catalog">
+
+							<div class="cards-catalog__tabs">
+								<nav class="cards-catalog__navigation">
+									<button type="submit" class="cards-catalog__title cards-catalog__title_view-grid _tab-active _icon-view-grid"></button>
+									<button type="submit" class="cards-catalog__title cards-catalog__title_view-line _icon-view-line"></button>
+								</nav>
+								<div class="cards-catalog__tbs-body">
+								</div>
+								<div hidden class="menu__submenu submenu">
+									<div class="cart-header__items">
+										<button type="button" class="cart-header__close">Back to shops</button>
+										<div class="cart-header__title">Shopping cart</div>
+										<ul class="cart-header__list cart-list">
+
+										</ul>
+										<div class="cart-header__total">Total: 0&nbsp;&euro;</div>
+										<button type="submit" class="cart-header__order-button btn">Order</button>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div id="map" style="width: 100%; height: 400px;" class="contacts__map"></div>
+
+				</div>
+			</div>
+
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__icons-social">
+					<a href="#" class="footer__icon _icon-facebook"></a>
+					<a href="#" class="footer__icon _icon-instagram"></a>
+				</div>
+				<div class="footer__payments">
+					<a href="#" class="footer__paypal">
+						<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/040/329/original/paypal.png" alt="PayPal">
+					</a>
+					<a href="#" class="footer__visa">
+						<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/040/330/original/visa.png" alt="Visa">
+					</a>
+					<a href="#" class="footer__maestro">
+						<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/040/331/original/maestro.png" alt="Maestro">
+					</a>
+					<a href="#" class="footer__discover">
+						<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/040/332/original/discover.png" alt="Discover">
+					</a>
+					<a href="#" class="footer__ae">
+						<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/040/333/original/american-express.png" alt="American-Express">
+					</a>
+				</div>
+				<div class="footer__copy">Copyright © 2020 Shop Pty. Ltd.</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBN-7lbpYwZ7CzMGMxzbNoY8cB8wtVwXhA&callback=initMap&_v=20220725141716" async defer></script>
+
+	<script>
+		// let apiKey = 'AIzaSyBN-7lbpYwZ7CzMGMxzbNoY8cB8wtVwXhA';
+		function initMap() {
+			var coordinates = {
+					lat: 50.44774253457327,
+					lng: 30.522068615344526
+				},
+
+				map = new google.maps.Map(document.getElementById('map'), {
+					center: coordinates,
+					zoom: 18,
+					disableDefaultUI: true,
+					scrollwheel: true,
+				});
+
+			image = 'img/location.svg',
+				marker = new google.maps.Marker({
+					position: coordinates,
+					map: map,
+					icon: image
+				});
+
+			const mapContent = `
+			<div class="map-info">
+				<ul class="map-info__list">
+					<li class="map-info__item"><a href="#" class="map-info__link map-info__link_location"><span class="map-info__name">Address</span>Kiev,&nbsp;Kyiv st., 35</a></li>
+					<li class="map-info__item"><a href="email:bestfoodDelivery@gmail.com" class="map-info__link map-info__link_email"><span class="map-info__name">Email</span>bestfoodDelivery@gmail.com</a></li>
+					<li class="map-info__item"><a href="tel:8800001100" class="map-info__link map-info__link_phone"><span class="map-info__name">Phone</span>8&nbsp;800&nbsp;001&nbsp;100</a></li>
+				</ul>
+			</div>
+		`;
+
+			infowindow = new google.maps.InfoWindow({
+				content: mapContent
+				// content: '<h3>Москва</h3><p>Москва - столица Российской Федерации</p>'
+			});
+
+			marker.addListener('click', function() {
+				infowindow.open(map, marker);
+			});
+
+			map.setOptions({
+				styles: styles
+			});
+
+			infowindow.open(map, marker);
+		}
+
+		var styles = [{
+				"elementType": "geometry.fill",
+				"stylers": [{
+					"color": "#fef3ef"
+				}]
+			},
+			{
+				"elementType": "labels.text.fill",
+				"stylers": [{
+					"color": "#625659"
+				}]
+			},
+			{
+				"featureType": "poi",
+				"elementType": "geometry.fill",
+				"stylers": [{
+					"color": "#f8eaf2"
+				}]
+			},
+			{
+				"featureType": "poi.business",
+				"elementType": "labels.icon",
+				"stylers": [{
+					"visibility": "off"
+				}]
+			},
+			{
+				"featureType": "poi.business",
+				"elementType": "labels.text",
+				"stylers": [{
+					"visibility": "off"
+				}]
+			},
+			{
+				"featureType": "poi.park",
+				"elementType": "geometry.fill",
+				"stylers": [{
+					"color": "#cff198"
+				}]
+			},
+			{
+				"featureType": "road.arterial",
+				"elementType": "geometry.fill",
+				"stylers": [{
+					"color": "#ffcb7d"
+				}]
+			},
+			{
+				"featureType": "road.arterial",
+				"elementType": "geometry.stroke",
+				"stylers": [{
+					"color": "#ffc56d"
+				}]
+			},
+			{
+				"featureType": "transit.station",
+				"elementType": "labels.icon",
+				"stylers": [{
+					"visibility": "off"
+				}]
+			}
+		]
+	</script>
+	<script src="js/app.min.js?_v=20220725141716"></script>
+</body>
+
+</html>
+
+<!-- <div class="quantity">
+	<div class="quantity__button quantity__button_plus _icon-plus"></div>
+	<div class="quantity__input"><input autocomplete="off" type="text" name="form[]" value="1"></div>
+	<div class="quantity__button quantity__button_minus _icon-minus"></div>
+</div> -->
